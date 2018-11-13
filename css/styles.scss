@@ -492,6 +492,20 @@ body {
 
 ////////////////////////////////// BUTTONS \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 a {
+    background-image: linear-gradient(180deg, transparent 0, #fff 0);
+    transition: background-position .1s ease-out;
+    background-position: 0 19px;
+    background-repeat: no-repeat;
+    box-shadow: none;
+    padding: 0;
+
+    &:hover {
+        outline: 0;
+        color: #232526;
+        background-image: linear-gradient(180deg, transparent 0, rgba(255, 255, 255, .7) 0);
+        background-position: 0 0;
+    }
+
     &.btn {
         background-color: $color-tan;
         color: #fff;
@@ -879,6 +893,7 @@ a:hover span:before {
         // background-image: url('/images/dallas-skyline.jpg');
         border-bottom: 1px solid black;
         position: relative;
+
         h1 {
             position: absolute;
             bottom: 34px;
@@ -887,9 +902,12 @@ a:hover span:before {
             font-size: $h1-size;
         }
     }
+
     h2 {
         font-size: ($h2-size / 1.5);
-    } // .overlay {
+    }
+
+    // .overlay {
     //     position: absolute;
     //     min-height: 100%;
     //     min-width: 100%;
