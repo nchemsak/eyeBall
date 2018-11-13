@@ -9,10 +9,10 @@
 // @include media-breakpoint-up(lg) {}
 // @include media-breakpoint-up(xl) {}
 //
-@import "../lib/bootstrap-4.0.0/scss/functions";
-@import "../lib/bootstrap-4.0.0/scss/variables";
-@import "../lib/bootstrap-4.0.0/scss/mixins";
-@import "../lib/bootstrap-4.0.0/scss/grid";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/grid";
 
 ///////////////////////// VARIABLE OVERRIDES  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 $body-bg: #fff;
