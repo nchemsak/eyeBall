@@ -2,3 +2,6 @@
 css/styles.full.css.map
 lib/bower_components
 /node_modules
+.sass-cache
+/package-lock.json
+package-lock.json

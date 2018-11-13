@@ -16,7 +16,9 @@
     "grunt-contrib-watch": "^1.1.0",
     "grunt-http-server": "^2.1.0",
     "jit-grunt": "^0.10.0",
-    "livereload": "^0.7.0"
+    "livereload": "^0.7.0",
+    "debug": ">=2.6.9",
+    "qs": ">=1.0.0"
   },
   "dependencies": {
     "jquery": "^3.3.1",
