@@ -160,7 +160,7 @@ body {
 }
 
 .small-dark-navbar {
-    background-color: rgba(83, 83, 83, 1);
+    background-color: rgba(83, 83, 83, 0);
 
     @include media-breakpoint-up(sm) {
         background-color: rgba(83, 83, 83, 1);
@@ -869,7 +869,7 @@ a:hover span:before {
         }
     }
 
-    .front-page-blurb-heading {
+    .pupil {
         color: #fff;
         position: absolute;
         font-size: 30px;
@@ -877,6 +877,63 @@ a:hover span:before {
         top: 330px;
         right: 0;
         left: 0;
+
+        @include media-breakpoint-up(sm) {
+            width: 140px;
+            height: 170px;
+            // background-color: #332a2f;
+            position: absolute;
+            left: 200px;
+            right: 0;
+            top: 0;
+            bottom: 175px;
+            margin: auto;
+            max-width: 100%;
+            max-height: 100%;
+            overflow: auto;
+            border-radius: 50%;
+transform: rotateY(15deg);
+-webkit-box-shadow: inset 0px 0px 99px 13px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 99px 13px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 99px 13px rgba(0,0,0,0.75);
+// background: url('images/img-noise-361x370.png');
+// background=#332a2fff&noise=626262&density=41&opacity=52
+        }
+    }
+    .pupil-reflection {
+        background-color: #fff;
+        width: 102px;
+            height: 92px;
+               position: absolute;
+            left: 208px;
+            right: 0;
+            top: 0;
+            bottom: 338px;
+              margin: auto;
+            max-width: 100%;
+            max-height: 100%;
+            overflow: auto;
+            border-radius: 50%;
+            transform: skewY(16deg);
+    }
+    .iris {
+        // background-color: #aa704b;
+        width: 420px;
+            height: 420px;
+               position: absolute;
+            left: 208px;
+            right: 0;
+            top: 0;
+            bottom: 123px;
+              margin: auto;
+            max-width: 100%;
+            max-height: 100%;
+            overflow: auto;
+            border-radius: 50%;
+-webkit-box-shadow: inset 0px 0px 99px 13px rgba(170,112,75,0.75);
+-moz-box-shadow: inset 0px 0px 99px 13px rgba(170,112,75,0.75);
+box-shadow: inset 0px 0px 99px 13px rgba(170,112,75,0.75);
+            // transform: skewY(16deg);
     }
 }
 
