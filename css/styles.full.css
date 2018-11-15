@@ -1446,6 +1446,8 @@ a:hover span:before {
   transform: rotate(-167deg);
   border-bottom-left-radius: -50%;
   border-bottom-right-radius: -50%; }
+#homepage header {
+  background-color: rgba(212, 172, 160, 0.5); }
 
 .raindrop0 {
   position: absolute;

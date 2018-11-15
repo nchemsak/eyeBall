@@ -961,9 +961,9 @@ a:hover span:before {
 
 
     .eyeball {
-            width: 380px;
+        width: 380px;
         height: 380px;
-                position: absolute;
+        position: absolute;
         left: 208px;
         right: 0;
         top: 0;
@@ -976,49 +976,52 @@ a:hover span:before {
     }
 
     .eyewhite {
-    width: 811px;
-    height: 462px;
-    background-color: rgba(255,255,255,.5);
-    position: absolute;
-    right: 548px;
-    top: 201px;
-    border-radius: 113% 3% 92% 38%/102% 8% 121% 24%;
-    // border: 3px solid #000;
-    transform: rotate(-160deg);
+        width: 811px;
+        height: 462px;
+        background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        right: 548px;
+        top: 201px;
+        border-radius: 113% 3% 92% 38%/102% 8% 121% 24%;
+        // border: 3px solid #000;
+        transform: rotate(-160deg);
 
-    width: 883px;
-    height: 477px;
-    background-color: rgba(255,255,255,.5);
-    position: absolute;
-    right: 475px;
-    top: 188px;
-    border-radius: 121% 3% 92% 38%/102% 8% 121% 24%;
-    transform: rotate(-160deg);
+        width: 883px;
+        height: 477px;
+        background-color: rgba(255, 255, 255, .5);
+        position: absolute;
+        right: 475px;
+        top: 188px;
+        border-radius: 121% 3% 92% 38%/102% 8% 121% 24%;
+        transform: rotate(-160deg);
 
     }
 
- .skin1 {
-    background-color: rgba(212,172,160,0.5);
-    width: 2000px;
-    height: 675px;
-    position: absolute;
-    left: -603px;
-    top: -204px;
-     transform: rotate(-31deg);
- }
+    .skin1 {
+        background-color: rgba(212, 172, 160, 0.5);
+        width: 2000px;
+        height: 675px;
+        position: absolute;
+        left: -603px;
+        top: -204px;
+        transform: rotate(-31deg);
+    }
 
- .skin2 {
-    background-color: rgba(212,172,160,0.5);
-    width: 2000px;
-    height: 675px;
-    position: absolute;
-    left: 0px;
-    bottom: -391px;
-    transform: rotate(-167deg);
-     border-bottom-left-radius:-50%;
-    border-bottom-right-radius:-50%;
- }
+    .skin2 {
+        background-color: rgba(212, 172, 160, 0.5);
+        width: 2000px;
+        height: 675px;
+        position: absolute;
+        left: 0px;
+        bottom: -391px;
+        transform: rotate(-167deg);
+        border-bottom-left-radius: -50%;
+        border-bottom-right-radius: -50%;
+    }
 
+    header {
+        background-color: rgba(212, 172, 160, 0.5);
+    }
 }
 
 
