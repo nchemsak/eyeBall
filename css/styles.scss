@@ -892,50 +892,266 @@ a:hover span:before {
             max-height: 100%;
             overflow: auto;
             border-radius: 50%;
-transform: rotateY(15deg);
--webkit-box-shadow: inset 0px 0px 99px 13px rgba(0,0,0,0.75);
--moz-box-shadow: inset 0px 0px 99px 13px rgba(0,0,0,0.75);
-box-shadow: inset 0px 0px 99px 13px rgba(0,0,0,0.75);
-// background: url('images/img-noise-361x370.png');
-// background=#332a2fff&noise=626262&density=41&opacity=52
+            transform: rotateY(15deg);
+            -webkit-box-shadow: inset 0px 0px 99px 13px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: inset 0px 0px 99px 13px rgba(0, 0, 0, 0.75);
+            box-shadow: inset 0px 0px 99px 13px rgba(0, 0, 0, 0.75);
+            // background: url('images/img-noise-361x370.png');
+            // background=#332a2fff&noise=626262&density=41&opacity=52
         }
     }
+
     .pupil-reflection {
         background-color: #fff;
         width: 102px;
-            height: 92px;
-               position: absolute;
-            left: 208px;
-            right: 0;
-            top: 0;
-            bottom: 338px;
-              margin: auto;
-            max-width: 100%;
-            max-height: 100%;
-            overflow: auto;
-            border-radius: 50%;
-            transform: skewY(16deg);
+        height: 92px;
+        position: absolute;
+        left: 208px;
+        right: 0;
+        top: 0;
+        bottom: 338px;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+        overflow: auto;
+        border-radius: 50%;
+        transform: skewY(16deg);
     }
+
     .iris {
-        // background-color: #aa704b;
         width: 420px;
-            height: 420px;
-               position: absolute;
-            left: 208px;
-            right: 0;
-            top: 0;
-            bottom: 123px;
-              margin: auto;
-            max-width: 100%;
-            max-height: 100%;
-            overflow: auto;
-            border-radius: 50%;
--webkit-box-shadow: inset 0px 0px 99px 13px rgba(170,112,75,0.75);
--moz-box-shadow: inset 0px 0px 99px 13px rgba(170,112,75,0.75);
-box-shadow: inset 0px 0px 99px 13px rgba(170,112,75,0.75);
-            // transform: skewY(16deg);
+        height: 420px;
+        position: absolute;
+        left: 208px;
+        right: 0;
+        top: 0;
+        bottom: 123px;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+        overflow: auto;
+        border-radius: 50%;
+        -webkit-box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
+        -moz-box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
+        box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
+
+
+        -webkit-box-shadow: inset 0px 0px 99px 13px rgba(111, 67, 70, 0.70);
+        -moz-box-shadow: inset 0px 0px 99px 13px rgba(111, 67, 70, 0.70);
+        box-shadow: inset 0px 0px 99px 13px rgba(111, 67, 70, 0.75);
     }
+
+    .inner-iris {
+        width: 380px;
+        height: 380px;
+        position: absolute;
+        left: 208px;
+        right: 0;
+        top: 0;
+        bottom: 123px;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+        overflow: auto;
+        border-radius: 50%;
+        -webkit-box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
+        -moz-box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
+        box-shadow: inset 0px 0px 99px 13px rgba(170, 112, 75, 0.75);
+    }
+
+
+    .eyeball {
+            width: 380px;
+        height: 380px;
+                position: absolute;
+        left: 208px;
+        right: 0;
+        top: 0;
+        bottom: 123px;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+        overflow: auto;
+        transform: rotate(-55deg);
+    }
+
+    .eyewhite {
+    width: 811px;
+    height: 462px;
+    background-color: rgba(255,255,255,.5);
+    position: absolute;
+    right: 548px;
+    top: 201px;
+    border-radius: 113% 3% 92% 38%/102% 8% 121% 24%;
+    // border: 3px solid #000;
+    transform: rotate(-160deg);
+
+    width: 883px;
+    height: 477px;
+    background-color: rgba(255,255,255,.5);
+    position: absolute;
+    right: 475px;
+    top: 188px;
+    border-radius: 121% 3% 92% 38%/102% 8% 121% 24%;
+    transform: rotate(-160deg);
+
+    }
+
+ .skin1 {
+    background-color: rgba(212,172,160,0.5);
+    width: 2000px;
+    height: 675px;
+    position: absolute;
+    left: -603px;
+    top: -204px;
+     transform: rotate(-31deg);
+ }
+
+ .skin2 {
+    background-color: rgba(212,172,160,0.5);
+    width: 2000px;
+    height: 675px;
+    position: absolute;
+    left: 0px;
+    bottom: -391px;
+    transform: rotate(-167deg);
+     border-bottom-left-radius:-50%;
+    border-bottom-right-radius:-50%;
+ }
+
 }
+
+
+
+
+
+// ############################################################################
+//
+//
+//                              EYEBALL
+//
+//
+// ############################################################################
+.raindrop0 {
+    position: absolute;
+    top: 64%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    border-radius: 100%;
+    background: transparent -moz-radial-gradient(50% 50%, ellipse farthest-corner, rgba(0, 0, 0, 0) 0%, rgba(0, 105, 149, 0.4) 37%, rgba(80, 80, 80, 0.1) 47%, rgba(80, 80, 80, 0) 58%);
+    background: transparent -webkit-radial-gradient(50% 50%, ellipse farthest-corner, rgba(0, 0, 0, 0) 0%, rgba(0, 105, 149, 0.4) 37%, rgba(80, 80, 80, 0.1) 47%, rgba(80, 80, 80, 0) 58%);
+    background: transparent radial-gradient(ellipse, rgba(0, 0, 0, 0) 0%, rgba(0, 105, 149, 0.4) 37%, rgba(80, 80, 80, 0.1) 47%, rgba(80, 80, 80, 0) 58%);
+}
+
+.raindrop1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border-top-left-radius: 0;
+    background: transparent -moz-radial-gradient(20% 20%, #fff 22%, rgba(255, 255, 255, 0.2) 30%, rgba(74, 193, 186, 0.5) 45%, rgba(0, 168, 243, 0.7) 65%, #fff 100%);
+    background: transparent -webkit-radial-gradient(20% 20%, #fff 22%, rgba(255, 255, 255, 0.2) 30%, rgba(74, 193, 186, 0.5) 45%, rgba(0, 168, 243, 0.7) 65%, #fff 100%);
+    background: transparent radial-gradient(at 20% 20%, #fff 22%, rgba(255, 255, 255, 0.2) 30%, rgba(74, 193, 186, 0.5) 45%, rgba(0, 168, 243, 0.7) 65%, #fff 100%);
+}
+
+.raindrop2 {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 94%;
+    height: 94%;
+    border-radius: 100%;
+    border-top-left-radius: 0;
+    background: transparent -moz-radial-gradient(30% 55%, circle cover, rgba(0, 105, 149, 0) 70%, rgba(0, 105, 149, 0.8) 80%);
+    background: transparent -webkit-radial-gradient(30% 55%, circle cover, rgba(0, 105, 149, 0) 70%, rgba(0, 105, 149, 0.8) 80%);
+    background: transparent radial-gradient(circle farthest-corner at 30% 55%, rgba(0, 105, 149, 0) 70%, rgba(0, 105, 149, 0.8) 80%);
+}
+
+.raindrop3 {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 94%;
+    height: 94%;
+    border-radius: 100%;
+    border-top-left-radius: 0;
+    background: transparent -moz-radial-gradient(50% 10%, ellipse cover, rgba(0, 105, 149, 0) 73%, rgba(0, 105, 149, 0.3) 80%);
+    background: transparent -webkit-radial-gradient(50% 10%, ellipse cover, rgba(0, 105, 149, 0) 73%, rgba(0, 105, 149, 0.3) 80%);
+    background: transparent radial-gradient(ellipse farthest-corner at 50% 10%, rgba(0, 105, 149, 0) 73%, rgba(0, 105, 149, 0.3) 80%);
+}
+
+.raindrop4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border-top-left-radius: 0;
+    box-shadow: inset rgba(124, 197, 238, 0.8) 0 0 32px;
+}
+
+.raindrop5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border-top-left-radius: 0;
+    background: transparent -moz-radial-gradient(30% 30%, ellipse cover, rgba(0, 105, 149, 0) 50%, rgba(255, 255, 255, 0.9) 72%, rgba(255, 255, 255, 0.6) 90%);
+    background: transparent -webkit-radial-gradient(30% 30%, ellipse cover, rgba(0, 105, 149, 0) 50%, rgba(255, 255, 255, 0.9) 72%, rgba(255, 255, 255, 0.6) 90%);
+    background: transparent radial-gradient(ellipse farthest-corner at 30% 30%, rgba(0, 105, 149, 0) 50%, rgba(255, 255, 255, 0.9) 72%, rgba(255, 255, 255, 0.6) 90%);
+}
+
+.raindrop6 {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    width: 80%;
+    height: 60%;
+    transform: matrix(1, -0.5, 0, 1, 0, 0);
+    background: transparent -moz-radial-gradient(73% 73%, ellipse farthest-corner, rgba(145, 240, 234, 0.8) 6%, rgba(145, 240, 234, 0.1) 25%, rgba(145, 240, 234, 0) 30%);
+    background: transparent -webkit-radial-gradient(73% 73%, ellipse farthest-corner, rgba(145, 240, 234, 0.8) 6%, rgba(145, 240, 234, 0.1) 25%, rgba(145, 240, 234, 0) 30%);
+    background: transparent radial-gradient(ellipse farthest-corner at 73% 73%, rgba(145, 240, 234, 0.8) 6%, rgba(145, 240, 234, 0.1) 25%, rgba(145, 240, 234, 0) 30%);
+}
+
+.raindrop7 {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    width: 75%;
+    height: 55%;
+    transform: matrix(1, -0.5, 0, 1, 0, 0);
+    background: transparent -moz-radial-gradient(73% 73%, ellipse farthest-corner, #fff 6%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 30%);
+    background: transparent -webkit-radial-gradient(73% 73%, ellipse farthest-corner, #fff 6%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 30%);
+    background: transparent radial-gradient(ellipse farthest-corner at 73% 73%, #fff 6%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0) 30%);
+}
+
+.raindrop8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    border-top-left-radius: 0;
+    box-shadow: inset rgba(191, 235, 255, 0.8) 0 0 12px;
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
